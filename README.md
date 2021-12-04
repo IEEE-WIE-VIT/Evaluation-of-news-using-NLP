@@ -1,124 +1,66 @@
-# Evaluation-of-news-using-NLP
-Team members: Tisha, Suvarna, Kavipriya
+# Evaluate A News Article with Natural Language Processing
 
-Evaluate a News Article with Natural Language Processing 
+4th project at [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011) Front End Web Developer Nanodegree program.
 
- 
+This project aims to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. When a user submits a URL of an article, the web page then dispalys sentiment analysis returned from [meaningcloud API](https://www.meaningcloud.com/products/sentiment-analysis), based on the contents of the article.
 
-GitHub repo link: 
+## Build Tools
+* HTML
+* CSS
+* JavaScript
+* Node
+* Express
+* Webpack
+* meaningcloud API
+* Jest
+* Workbox
 
-GitHub - IEEE-WIE-VIT/Evaluation-of-news-using-NLP: Team members: Tisha, Suvarna, Kavipriya 
+## Installation
+Make sure Node and npm are installed from the terminal.
+```
+node -v
+npm -v
+```
 
-Team members: 
+1. Move to the project folder
+```
+cd <project directory>
+```
+2. Clone the repo
+```
+git clone <repo>
+```
+3. Install npm
+```
+npm install
+```
+4. Install loaders and plugins
+```
+# Choose the necessary installation for your development mode
+npm i -D @babel/core @babel/preset-env babel-loader
+npm i -D style-loader node-sass css-loader sass-loader
+npm i -D clean-webpack-plugin
+npm i -D html-webpack-plugin
+npm i -D mini-css-extract-plugin
+npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
+```
+5. Sign up for an API key at [meaningcloud.com](https://www.meaningcloud.com/developer/create-account)
 
-Tisha Chawla  
+6. Configure environment variables using dotenv package
+	1. Install the dotenv package
+	```
+	npm install dotenv
+	```
+	2. Create a new `.env` file in the root of your project
+	3. Fill the `.env` file with your API key like this:
+	```
+	API_KEY=**************************
+	```
+7. Start the project
 
-Kavipriya J  
+Command | Action
+:------------: | :-------------:
+`npm run build-prod` | Build project
+`npm start` | Run project
 
-Suvarna  
-
-About the project: 
-
-This project requires to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. 
-
-Basically, it will provide help in classifying the information available in the article, like whether the content is subjective (opinion) or objective (fact-based) and whether it is positive, neutral, or negative in tone. 
-
- 
-
-Tech stacks: 
-
-HTML 
-
-Sass/CSS 
-
-JavaScript 
-
-Node 
-
-Express 
-
-Webpack 
-
-Meaning cloud API 
-
-Jest 
-
-Workbox 
-
- 
-
-Workflow: 
-
-Getting Started - Setting up the Project - installing all the necessary dependencies. 
-
-Setting up the API - I have used Meaning Cloud Sentiment Analysis 
-
-Sign up for an API key 
-
-Set the Environment Variables 
-
-Using the API accordingly to the official documentation 
-
-Project Enhancement 
-
-Unit Testing using Jest Framework 
-
-Adding Service Workers 
-
-Project Deployment on Netlify or Heroku 
-
- 
-
-Timeline of progress: 
-
- 
-
-October - 
-
-We learnt about NLP, webpack's and SASS framework. 
-
-Courses or articles referred during this project: 
-
-https://www.coursera.org/learn/classification-vector-spaces-in-nlp/home/welcome 
-
-https://github.com/basaksilasanli/evaluate-news-nlp 
-
-https://github.com/AlinaDev252/Evaluate-news-nlp 
-
- 
-
-November - 
-
-7/11/2021 - Downloading the Dependencies as well as modules needed 
-
-14/11/2021- Completing Fronted 
-
-21/11/2021- Using API to create requests with external URLs 
-
-28/11/2021- Testing it 
-
- 
-
-What we’ll be learning in this project? 
-
-Setting up Webpack 
-
-Sass styles 
-
-Creating layouts and page design 
-
-Using APIs and creating requests to external URLs 
-
- 
-
-Roles - 
-
-Creating layouts and page design 
-
-Using APIs and creating requests to external URLs 
-
-NLP polarity checking using API along with URL and Name checker
-
-
-
-
+8. Open browser at http://localhost:8081/
