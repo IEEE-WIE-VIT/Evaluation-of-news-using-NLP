@@ -5,13 +5,13 @@ Evaluate a News Article with Natural Language Processing
 
  
 
-GitHub repo link: 
+# GitHub repo link: 
 
 GitHub - IEEE-WIE-VIT/Evaluation-of-news-using-NLP: Team members: Tisha, Suvarna, Kavipriya 
 
  
 
-Team members: 
+# Team members: 
 
 Tisha Chawla  
 
@@ -21,7 +21,7 @@ Suvarna
 
  
 
-About the project: 
+# About the project: 
 
 This project requires to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. 
 
@@ -29,7 +29,7 @@ Basically, it will provide help in classifying the information available in the 
 
  
 
-Tech stacks: 
+# Tech stacks: 
 
 HTML 
 
@@ -51,7 +51,7 @@ Workbox
 
  
 
-Workflow: 
+# Workflow: 
 
 Getting Started - Setting up the Project - installing all the necessary dependencies. 
 
@@ -73,7 +73,7 @@ Project Deployment on Netlify or Heroku
 
  
 
-Timeline of progress: 
+# Timeline of progress: 
 
  
 
@@ -103,7 +103,7 @@ November -
 
  
 
-What we’ll be learning in this project? 
+# What we’ll be learning in this project? 
 
 Setting up Webpack 
 
@@ -115,7 +115,7 @@ Using APIs and creating requests to external URLs
 
  
 
-Roles - 
+# Roles - 
 
 Creating layouts and page design 
 
