@@ -122,3 +122,9 @@ Creating layouts and page design
 Using APIs and creating requests to external URLs 
 
 NLP polarity checking using API along with URL and Name checker 
+
+
+# Screenshot 
+ 
+![Screenshot (224)](https://user-images.githubusercontent.com/76952365/144716860-7bbd9271-b9d9-4dac-ab72-cdb8796cc271.png)
+
