@@ -128,3 +128,9 @@ NLP polarity checking using API along with URL and Name checker
  
 ![Screenshot (224)](https://user-images.githubusercontent.com/76952365/144716860-7bbd9271-b9d9-4dac-ab72-cdb8796cc271.png)
 
+
+# Result
+
+![Screenshot (226)](https://user-images.githubusercontent.com/76952365/144716873-82e8930a-dbef-40e3-a2b7-48f04e6c77b7.png)
+
+
